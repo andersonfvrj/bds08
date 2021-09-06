@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #334ac3;
+  --secondary-color: white;
+  --tertiary-color: #e5e5e5;
+  --tom-cinza-color: #8d8d8d;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.base-card {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}

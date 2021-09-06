@@ -1,0 +1,66 @@
+.board-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  margin-bottom: 50px;
+}
+
+.base-card-chart {
+  width: 95%;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.titulo-container {
+  width: 100%;
+  margin-top: 25px;
+  display: block;
+  padding-left: 20px;
+}
+
+.titulo-container h1 {
+  font-size: 36px;
+}
+
+.titulo-container span {
+  color: var(--tom-cinza-color);
+  font-size: 18px;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.chart-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+  .board-container {
+    margin-top: 40px;
+  }
+
+  .base-card-chart {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .base-card-chart {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .base-card-chart {
+    width: 75%;
+  }
+}
